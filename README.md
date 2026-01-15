@@ -2,7 +2,7 @@ Protein Projected Area Analysis Tool
 Overview
 This Python script calculates the projected surface area of a protein onto a 2D plane after dual-axis rotation in 3D space, generating a matrix data file of rotation angles versus projected areas. The tool is designed for structural biology and molecular modeling applications, useful for analyzing how protein exposure changes from different viewing angles.
 Features
-•	Extracts all alpha-carbon (CA) atom coordinates from a PDB file
+• Extracts all alpha-carbon (CA) atom coordinates from a PDB file
 •	Rotates the protein model around X and Y axes (0° to 180° with 0.5° increments)
 •	Projects rotated 3D coordinates onto the XY plane
 •	Calculates 2D projected area using a grid-based method (considering atom radius)
